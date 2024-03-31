@@ -12,12 +12,10 @@ interface InputProps{
     register : UseFormRegister<FieldValues>,
     error : FieldError,
     disabled? : boolean
-    
-
 }
 
 export default function Input() {
   return (
-    <div>Input</div>
+    <div>Hello</div>
   )
 }
